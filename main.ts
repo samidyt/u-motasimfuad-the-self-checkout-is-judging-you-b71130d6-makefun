@@ -4,7 +4,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const LINE =
-  "Twelve yoghurts. No spoon, no shame, no plan. Please place your dignity in the bagging area.";
+  "Twelve yoghurts and nothing else. No spoon, no shame, no plan. Please place your dignity in the bagging area.";
 
 const outDir = process.env.ENTRY_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
